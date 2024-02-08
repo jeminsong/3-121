@@ -22,11 +22,11 @@ int main() {
   cin >> hours_worked;
   double salary = ComputeSalary(hourly_wages, hours_worked);
   if (hourly_wages < 0) {
-    cout << "❌ Error: Negative hourly wage is invalid.\n";
+    cout << "Negative hourly wage is invalid.\n";
     return -1;
   }
   if (hours_worked < 0) {
-    cout << ❌ Error: Negative hours worked is invalid.\n";
+    cout << "Negative hours worked is invalid.\n";
     return -1;
   }
   std::cout << std::fixed << std::setprecision(2) << "Total Salary Owed: $"
