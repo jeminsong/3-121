@@ -1,12 +1,13 @@
-// Ethan Bui
+// Jemin Song
 // CPSC 121L-02
-// 1/31/2024
-// ethanbui888@csu.fullerton.edu
-// @ethanbui888
+// 2/7/2024
+// jeminsong0119@csu.fullerton.edu
+// @jeminsong
 //
 // Lab 2-1
 // If it is a pair programming lab please specify partner below.
-// Partner: @jeminsong
+// Partner: @ethanbui888
+
 double ComputeSalary(double wages, double hours) {
   double salary = 0;
   if (hours <= 40) {
