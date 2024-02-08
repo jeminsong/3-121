@@ -6,7 +6,7 @@
 //
 // Lab 3-1
 // If it is a pair programming lab please specify partner below.
-// Partner: @peteranteater
+// Partner: @ethanbui888
 
 #include <iostream>
 #include <string>
