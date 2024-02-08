@@ -1,12 +1,20 @@
-// TODO: please fill in below.
-// <Your name>
-// <Your section number> (e.g. CPSC 121L-01)
-// <Date>
-// <Your csu.fullerton.edu email>
-// <Your GitHub username>
+// Ethan Bui
+// CPSC 121L-02
+// 1/31/2024
+// ethanbui888@csu.fullerton.edu
+// @ethanbui888
 //
-// Lab 3-2
+// Lab 2-1
 // If it is a pair programming lab please specify partner below.
-// Partner: @peteranteater
-
-// TODO: implement the function defined in salary.h here.
+// Partner: @jeminsong
+double ComputeSalary(double wages, double hours) {
+  double salary = 0;
+  if (hours <= 40) {
+    salary = hours * wages;
+  } else if ((hours > 40) && (hours <= 65)) {
+    salary = (wages * 40) + (hours - 40) * (wages * 1.5);
+  } else {
+    salary = (wages * 40) + ((wages * 1.5) * 25) + ((hours - 65) * (wages * 2));
+  }
+  return salary;
+}

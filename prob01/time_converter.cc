@@ -1,9 +1,8 @@
-// TODO: please fill in below.
-// <Your name>
-// <Your section number> (e.g. CPSC 121L-01)
-// <Date>
-// <Your csu.fullerton.edu email>
-// <Your GitHub username>
+// Jemin Song
+// CPSC 121L-02
+// 2/7/2024
+// jeminsong0119@csu.fullerton.edu
+// @jeminsong
 //
 // Lab 3-1
 // If it is a pair programming lab please specify partner below.
@@ -13,7 +12,16 @@
 #include <string>
 
 std::string MilitaryToRegularTime(int military_time) {
-  // TODO: convert military_time to regular time in string format.
-  // Hint: std::to_string() converts a given integer to a string.
-  return "";
+  std::string regular_time;
+  int hours = military_time / 100;
+  int minutes = military_time % 100;
+  std::string am_pm = (hours < 12) ? "am" : "pm";
+  if (hours > 12) {
+    hours -= 12;
+  } else if (hours == 0) {
+    hours = 12;
+  }
+  regular_time = std::to_string(hours) + ":" + ((minutes < 10) ? "0" : "") +
+                 std::to_string(minutes) + " " + am_pm;
+  return regular_time;
 }

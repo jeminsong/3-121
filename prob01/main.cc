@@ -1,9 +1,8 @@
-// TODO: please fill in below.
-// <Your name>
-// <Your section number> (e.g. CPSC 121L-01)
-// <Date>
-// <Your csu.fullerton.edu email>
-// <Your GitHub username>
+// Jemin Song
+// CPSC 121L-02
+// 2/7/2024
+// jeminsong0119@csu.fullerton.edu
+// @jeminsong
 //
 // Lab 3-1
 // If it is a pair programming lab please specify partner below.
@@ -19,9 +18,7 @@ int main() {
   std::cout << "Please enter the time in military time: ";
   std::cin >> military_time;
 
-  // TODO: Call your function to convert from military time to regular time
-  // and assign its result to regular_time.
-  std::string regular_time;
+  std::string regular_time = MilitaryToRegularTime(military_time);
 
   std::cout << "The equivalent regular time is: " << regular_time << "\n";
   return 0;

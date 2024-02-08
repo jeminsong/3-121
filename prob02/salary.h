@@ -1,12 +1,15 @@
-// TODO: please fill in below.
-// <Your name>
-// <Your section number> (e.g. CPSC 121L-01)
-// <Date>
-// <Your csu.fullerton.edu email>
-// <Your GitHub username>
+// Ethan Bui
+// CPSC 121L-02
+// 1/31/2024
+// ethanbui888@csu.fullerton.edu
+// @ethanbui888
 //
-// Lab 3-2
+// Lab 2-1
 // If it is a pair programming lab please specify partner below.
-// Partner: @peteranteater
+// Partner: @jeminsong
 
-// TODO: write your function declaration here.
+#ifndef SALARY_H
+#define SALARY_H
+#endif
+
+double ComputeSalary(double wages, double hours);
