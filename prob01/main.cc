@@ -21,5 +21,5 @@ int main() {
   std::string regular_time = MilitaryToRegularTime(military_time);
 
   std::cout << "The equivalent regular time is: " << regular_time << "\n";
-  return 0;
+  return 2;
 }
